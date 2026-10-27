@@ -1,5 +1,7 @@
 # xltui - minimal Terminal UI for Excel files
 
+> Fork of [dariogriffo/xltui-debian](https://github.com/dariogriffo/xltui-debian) (MIT); the original packaging is by Dario Griffo. Served at [deb.gaofn.xyz](https://deb.gaofn.xyz) for Debian 12 (bookworm) and 13 (trixie).
+
 Minimal Excel Terminal UI (TUI) inspired by TUIs like
 
 * [doxx](https://github.com/bgreenwell/doxx)

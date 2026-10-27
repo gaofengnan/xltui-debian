@@ -62,9 +62,9 @@ build_architecture() {
     # One package for every suite: xltui is a self-contained .NET single-file
     # app that dlopens whichever libicuNN it finds, so the per-suite builds
     # only differed in their libicu dependency. One alternation covering every
-    # suite's ICU (see output/DEBIAN/control) replaces them. The fixed ~griffo
+    # suite's ICU (see output/DEBIAN/control) replaces them. The fixed ~gaofn
     # keeps it below the distro's own build of the same version.
-    FULL_VERSION="$xltui_VERSION-${BUILD_VERSION}~griffo_${build_arch}"
+    FULL_VERSION="$xltui_VERSION-${BUILD_VERSION}~gaofn_${build_arch}"
     echo "  Building $FULL_VERSION"
 
     if ! docker build . -t "xltui-$build_arch" \

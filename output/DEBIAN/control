@@ -1,9 +1,9 @@
 Section: utils
 Priority: optional
-Maintainer: Dario Griffo <dariogriffo@gmail.com>
+Maintainer: Fengnan Gao <gao.fengnan@gmail.com>
 Homepage: https://github.com/PDMLab/xltui
 Package: xltui
-Version: xltui_VERSION-BUILD_VERSION~griffo
+Version: xltui_VERSION-BUILD_VERSION~gaofn
 Architecture: SUPPORTED_ARCHITECTURES
 Depends: libc6 (>= 2.17), libgcc-s1, libstdc++6 (>= 5), zlib1g, libicu78 | libicu76 | libicu74 | libicu72 | libicu70
 Description: minimal Terminal UI for Excel files written in .NET.
